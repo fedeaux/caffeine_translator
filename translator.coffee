@@ -27,7 +27,7 @@ _tk = (string, replace) ->
     else
       return '<span> (translator) Not Found: '+path+'&nbsp&nbsp</span>'
 
-  if(is_array(curr))
+  if($.isArray(curr))
     return '<span> (translator) Incomplete Path: '+path+'&nbsp&nbsp</span>'
 
   if(map.length == 0)
